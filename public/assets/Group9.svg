@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="372.078" height="331.731" viewBox="0 0 372.078 331.731">
+  <g id="Group_9" data-name="Group 9" transform="translate(355.51 151.515) rotate(120)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="211" height="292" rx="18" transform="translate(-3.613 -1.227)" fill="#3c5c42"/>
+    <g id="Rectangle_27" data-name="Rectangle 27" transform="translate(-13.06 -11.59)" fill="none" stroke="#ebf9e3" stroke-width="1">
+      <rect width="211" height="292" rx="18" stroke="none"/>
+      <rect x="0.5" y="0.5" width="210" height="291" rx="17.5" fill="none"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(20.574 180.52)">
+      <text id="randing" transform="translate(60.09 74.588)" fill="#ebf9e3" font-size="30" font-family="SofiaProSemiBold, Sofia Pro"><tspan x="0" y="0">randing</tspan></text>
+      <path id="Path_11" data-name="Path 11" d="M20.564,56.532,36.1,54.008l-.673,10.877L17.906,69.1Zm-2.01-38.655H34.3l-2.408,10.63L13.915,29.859ZM27.067,2.4,2.026,4.735,0,77.21l8.538-1.933,8.171,3.506H54.134v-30.5L13.276,41.759l38.133-7.648,1.16-23.192L48.8,0Z" fill="#ebf9e3"/>
+    </g>
+  </g>
+</svg>

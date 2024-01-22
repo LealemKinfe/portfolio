@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="332.731" height="371.379" viewBox="0 0 332.731 371.379">
+  <g id="Group_6" data-name="Group 6" transform="translate(150.428 13.247) rotate(30)">
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="211" height="292" rx="18" transform="translate(-0.494 0)" fill="#f9d278"/>
+    <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(-10.458 -9.258)" fill="none" stroke="#3e3e3e" stroke-width="1">
+      <rect width="211" height="292" rx="18" stroke="none"/>
+      <rect x="0.5" y="0.5" width="210" height="291" rx="17.5" fill="none"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(13.363 186.845)">
+      <text id="raphics" transform="translate(80.285 71.009)" fill="#3e3e3e" font-size="30" font-family="SofiaProSemiBold, Sofia Pro"><tspan x="0" y="0">raphics</tspan></text>
+      <path id="Path_5" data-name="Path 5" d="M12.238,0l65.9,3.765L74.452,18.817,21.944,16.662,11.168,29.005V47.226l14.5,16.262L62.5,61.921,61.913,53.3,45.651,51.733l1.567-12.539,32.916,2.743L74.452,82.493,14.188,78.477,0,69.758V19.378Z" fill="#3e3e3e"/>
+    </g>
+  </g>
+</svg>
