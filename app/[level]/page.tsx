@@ -48,16 +48,20 @@ export default function Page({ params }: { params: { level: string } }) {
         {params.level === "uiux" && (
           <div className="absolute top-10 left-10 rounded-2xl bg-Quinary/10 p-8 min-w-[317px] min-h-[364px] mt-28"></div>
         )}
-        <h1 className="absolute -translate-y-20 top-2/3 left-10 text-2xl font-bold text-Quinary ">
-          Project ESSS
-        </h1>
-        <Link
-          href={"/"}
-          className="absolute -translate-y-14 z-10 top-2/3 left-10 text-xl cursor-pointer text-Quinary "
-        >
-          {" "}
-          Learn More
-        </Link>
+        {params.level === "uiux" && (
+          <h1 className="absolute -translate-y-20 top-2/3 left-10 text-2xl font-bold text-Quinary ">
+            Project ESSS
+          </h1>
+        )}
+        {params.level === "uiux" && (
+          <Link
+            href={"/"}
+            className="absolute -translate-y-14 z-10 top-2/3 left-10 text-xl cursor-pointer text-Quinary "
+          >
+            {" "}
+            Learn More
+          </Link>
+        )}
         {params.level === "uiux" && (
           <div className="absolute top-8 left-8 rounded-2xl bg-Quinary/20 p-8 min-w-[317px] min-h-[364px] mt-28"></div>
         )}
