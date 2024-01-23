@@ -8,17 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       colors: {
         Primary: "#F7664D",
         Secondary: "#F9D278",
         Tertiary: "#3C5C42",
         Quaternary: "#E8FCFF",
         Quinary: "#FDECCA",
+      },
+      animation: {
+        "spin-slow": "spin 200s reverse linear infinite",
+        "spin-mid": "spinadjust 200s linear infinite",
+      },
+      keyframes: {
+        spinadjust: {
+          "0%": { transform: "rotate(30deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
       },
     },
   },
