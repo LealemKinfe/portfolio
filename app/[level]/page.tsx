@@ -1,6 +1,6 @@
 import Image from "next/image";
 import clsx from "clsx";
-import Card from "../UI/Card";
+import Card from "../ui/Card";
 import { cardData, imageData } from "../lib/data";
 
 export default function Page({ params }: { params: { level: string } }) {

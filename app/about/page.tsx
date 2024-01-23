@@ -1,4 +1,4 @@
-import AboutModal from "../UI/AboutModal";
+import AboutModal from "../ui/AboutModal";
 
 const page = () => {
   return <AboutModal />;
