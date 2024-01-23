@@ -16,13 +16,13 @@ const config: Config = {
         Quinary: "#FDECCA",
       },
       animation: {
-        "spin-slow": "spin 200s reverse linear infinite",
-        "spin-mid": "spinadjust 200s linear infinite",
+        "spin-slow": "spin 50s reverse linear infinite",
+        "spin-mid": "spinadjust 50s linear infinite",
         scale: "scale 1s linear alternate infinite",
       },
       keyframes: {
         spinadjust: {
-          "0%": { transform: "rotate(30deg)" },
+          "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(360deg)" },
         },
         scale: {

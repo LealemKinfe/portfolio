@@ -26,7 +26,7 @@ export default function RootLayout({
             width={2000}
             height={1000}
             alt="background vector"
-            className="absolute object-contain top-0 left-0 right-0 bottom-0"
+            className="hidden lg:block absolute object-contain top-0 left-0 right-0 bottom-0"
           />
           <SideBar />
           {children}

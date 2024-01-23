@@ -19,11 +19,11 @@ export default function Home() {
               className="absolute top-7 rounded-lg right-1/2 translate-x-1/2 px-[37px] py-6 z-20"
             >
               <Image
-                src="/assets/Group6.svg"
+                src="/assets/home/Group6.svg"
                 height={180}
                 width={200}
                 alt="graphics page logo"
-                className="object-cover -rotate-[30deg]"
+                className="object-cover -rotate-[30deg] hover:animate-scale"
               />
             </Link>
             <div className="absolute top-7 rounded-lg right-1/2 translate-x-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/70"></div>
@@ -34,11 +34,11 @@ export default function Home() {
               className="absolute bottom-7 rounded-lg right-1/2 translate-x-1/2 px-[37px] py-6 z-10"
             >
               <Image
-                src="/assets/Group8.svg"
+                src="/assets/home/Group8.svg"
                 height={180}
                 width={200}
                 alt="logo page logo"
-                className="object-cover -rotate-[30deg]"
+                className="object-cover -rotate-[30deg] hover:animate-scale"
               />
             </Link>
             <div className="absolute bottom-7 rounded-lg right-1/2 translate-x-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/30"></div>
@@ -49,11 +49,11 @@ export default function Home() {
               className="absolute right-7 rounded-lg bottom-1/2 translate-y-1/2 px-[26px] py-[37px] z-10"
             >
               <Image
-                src="/assets/Group9.svg"
+                src="/assets/home/Group9.svg"
                 height={180}
                 width={220}
                 alt="branding page logo"
-                className="object-cover -rotate-[30deg]"
+                className="object-cover -rotate-[30deg] hover:animate-scale"
               />
             </Link>
             <div className="absolute right-7 rounded-lg bottom-1/2 translate-y-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/30"></div>
@@ -64,11 +64,11 @@ export default function Home() {
               className="absolute left-7 rounded-lg bottom-1/2 translate-y-1/2 px-[26px] py-[37px] z-10"
             >
               <Image
-                src="/assets/Group7.svg"
+                src="/assets/home/Group7.svg"
                 height={180}
                 width={220}
                 alt="ui/ux page logo"
-                className="object-cover -rotate-[30deg]"
+                className="object-cover -rotate-[30deg] hover:animate-scale"
               />
             </Link>
             <div className="absolute left-7 rounded-lg bottom-1/2 translate-y-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/70"></div>
@@ -84,7 +84,7 @@ export default function Home() {
           className="lg:hidden rounded-lg px-[37px] py-6 bg-[#C3C3C3]/70"
         >
           <Image
-            src="/assets/Group6.svg"
+            src="/assets/home/Group6.svg"
             height={180}
             width={200}
             alt="graphics page logo"
@@ -98,7 +98,7 @@ export default function Home() {
           className="lg:hidden rounded-lg px-[37px] py-6 bg-[#C3C3C3]/30"
         >
           <Image
-            src="/assets/Group8.svg"
+            src="/assets/home/Group8.svg"
             height={180}
             width={200}
             alt="logo page logo"
@@ -112,7 +112,7 @@ export default function Home() {
           className="lg:hidden rounded-lg px-[26px] py-[37px] bg-[#C3C3C3]/30"
         >
           <Image
-            src="/assets/Group9.svg"
+            src="/assets/home/Group9.svg"
             height={180}
             width={220}
             alt="branding page logo"
@@ -126,7 +126,7 @@ export default function Home() {
           className="lg:hidden rounded-lg px-[26px] py-[37px] bg-[#C3C3C3]/70"
         >
           <Image
-            src="/assets/Group7.svg"
+            src="/assets/home/Group7.svg"
             height={180}
             width={220}
             alt="ui/ux page logo"
