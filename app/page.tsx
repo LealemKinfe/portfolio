@@ -13,7 +13,7 @@ export default function Home() {
               <div className="rounded-full p-12 border-[50px] border-[#707070]"></div>
             </div>
 
-            {/* Top div */}
+            {/* Graphics div */}
             <Link
               href="/graphics"
               className="absolute top-7 rounded-lg right-1/2 translate-x-1/2 px-[37px] py-6 z-20"
@@ -28,7 +28,7 @@ export default function Home() {
             </Link>
             <div className="absolute top-7 rounded-lg right-1/2 translate-x-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/70"></div>
 
-            {/* Bottom div */}
+            {/* Logo div */}
             <Link
               href="/logo"
               className="absolute bottom-7 rounded-lg right-1/2 translate-x-1/2 px-[37px] py-6 z-10"
@@ -43,7 +43,7 @@ export default function Home() {
             </Link>
             <div className="absolute bottom-7 rounded-lg right-1/2 translate-x-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/30"></div>
 
-            {/* Right div */}
+            {/* Branding div */}
             <Link
               href="/branding"
               className="absolute right-7 rounded-lg bottom-1/2 translate-y-1/2 px-[26px] py-[37px] z-10"
@@ -58,7 +58,7 @@ export default function Home() {
             </Link>
             <div className="absolute right-7 rounded-lg bottom-1/2 translate-y-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/30"></div>
 
-            {/* Left div */}
+            {/* ui/ux div */}
             <Link
               href="/uiux"
               className="absolute left-7 rounded-lg bottom-1/2 translate-y-1/2 px-[26px] py-[37px] z-10"
@@ -78,7 +78,7 @@ export default function Home() {
 
       {/* Mobile design */}
       <section className="lg:hidden bg-[#2F2F2F] md:h-screen w-full p-10 grid sm:grid-cols-2 gap-5 place-items-center">
-        {/* Top link */}
+        {/* Graphics link */}
         <Link
           href="/graphics"
           className="lg:hidden rounded-lg px-[37px] py-6 bg-[#C3C3C3]/70"
@@ -88,11 +88,11 @@ export default function Home() {
             height={180}
             width={200}
             alt="graphics page logo"
-            className="object-cover -rotate-[30deg]"
+            className="object-cover -rotate-[30deg] hover:animate-scale"
           />
         </Link>
 
-        {/* Bottom link */}
+        {/* Logo link */}
         <Link
           href="/logo"
           className="lg:hidden rounded-lg px-[37px] py-6 bg-[#C3C3C3]/30"
@@ -102,11 +102,11 @@ export default function Home() {
             height={180}
             width={200}
             alt="logo page logo"
-            className="object-cover rotate-[150deg]"
+            className="object-cover rotate-[150deg] hover:animate-scale"
           />
         </Link>
 
-        {/* Right link */}
+        {/* Branding link */}
         <Link
           href="/branding"
           className="lg:hidden rounded-lg px-[26px] py-[37px] bg-[#C3C3C3]/30"
@@ -116,11 +116,11 @@ export default function Home() {
             height={180}
             width={220}
             alt="branding page logo"
-            className="object-cover -rotate-[120deg]"
+            className="object-cover -rotate-[120deg] hover:animate-scale"
           />
         </Link>
 
-        {/* Left link */}
+        {/* ui/ux link */}
         <Link
           href="/uiux"
           className="lg:hidden rounded-lg px-[26px] py-[37px] bg-[#C3C3C3]/70"
@@ -130,7 +130,7 @@ export default function Home() {
             height={180}
             width={220}
             alt="ui/ux page logo"
-            className="object-cover rotate-[60deg]"
+            className="object-cover rotate-[60deg] hover:animate-scale"
           />
         </Link>
       </section>
