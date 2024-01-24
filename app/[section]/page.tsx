@@ -2,38 +2,29 @@ import Image from "next/image";
 import clsx from "clsx";
 import Card from "../ui/Card";
 import { cardData, imageData } from "../lib/data";
+import { card, param } from "@/types";
 
-export default function Page({ params }: { params: { level: string } }) {
-  let index = 0;
+export default function Page({ params }: param) {
+  const lvl = params.section;
 
-  if (params.level === "uiux") {
-    index = 0;
-  } else if (params.level === "graphics") {
-    index = 1;
-  } else if (params.level === "branding") {
-    index = 2;
-  } else if (params.level === "logo") {
-    index = 3;
-  }
-
-  const cardInfo = cardData[index];
-  const imageInfo = imageData[index];
+  const cardInfo: card[] = cardData[lvl];
+  const imageInfo: string = imageData[lvl];
 
   return (
-    <div
+    <section
       className={clsx(
         "w-full h-auto flex flex-col gap-5 p-5 lg:overflow-auto z-10",
         {
-          "bg-Primary": params.level === "uiux",
-          "bg-Secondary": params.level === "graphics",
-          "bg-Tertiary": params.level === "branding",
-          "bg-Quaternary": params.level === "logo",
+          "bg-Primary": lvl === "uiux",
+          "bg-Secondary": lvl === "graphics",
+          "bg-Tertiary": lvl === "branding",
+          "bg-Quaternary": lvl === "logo",
         }
       )}
     >
       <Image
         src={imageInfo}
-        alt={`${params.level} Logo`}
+        alt={`${lvl} Logo`}
         width={200}
         height={300}
         className="self-end"
@@ -49,7 +40,7 @@ export default function Page({ params }: { params: { level: string } }) {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 {
