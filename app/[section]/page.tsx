@@ -4,27 +4,36 @@ import Card from "../ui/Card";
 import { cardData, imageData } from "../lib/data";
 import { card, param } from "@/types";
 
-export default function Page({ params }: param) {
-  const lvl = params.section;
+const Page = ({ params }: param) => {
+  const sec = params.section;
+  const sections = ["uiux", "graphics", "branding", "logo"];
 
-  const cardInfo: card[] = cardData[lvl];
-  const imageInfo: string = imageData[lvl];
+  if (!sections.includes(sec)) {
+    return (
+      <div className="w-full grid place-items-center bg-white z-10">
+        <h1 className="font-bold text-4xl">Page Not Found</h1>
+      </div>
+    );
+  }
+
+  const cardInfo: card[] = cardData[sec];
+  const imageInfo: string = imageData[sec];
 
   return (
     <section
       className={clsx(
         "w-full h-auto flex flex-col gap-5 p-5 lg:overflow-auto z-10",
         {
-          "bg-Primary": lvl === "uiux",
-          "bg-Secondary": lvl === "graphics",
-          "bg-Tertiary": lvl === "branding",
-          "bg-Quaternary": lvl === "logo",
+          "bg-Primary": sec === "uiux",
+          "bg-Secondary": sec === "graphics",
+          "bg-Tertiary": sec === "branding",
+          "bg-Quaternary": sec === "logo",
         }
       )}
     >
       <Image
         src={imageInfo}
-        alt={`${lvl} Logo`}
+        alt={`${sec} Logo`}
         width={200}
         height={300}
         className="self-end"
@@ -35,13 +44,15 @@ export default function Page({ params }: param) {
           <Card
             src={info.imgSrc}
             title={info.title}
-            link={info.link}
+            link={`${sec}/${info.link}`}
             key={info.title}
           />
         ))}
       </div>
     </section>
   );
-}
+};
 {
 }
+
+export default Page;
