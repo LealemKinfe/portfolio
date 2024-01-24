@@ -3,7 +3,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <section className="bg-white w-full h-auto flex flex-col md:flex-row-reverse justify-around p-5 gap-8 lg:overflow-auto z-10 text-[#3E3E3E]">
-      <div>
+      <div className="mx-auto">
         <h1 className="text-5xl font-extrabold my-5">Lealem Kinfe</h1>
 
         <h2 className="text-3xl font-bold my-5">
@@ -42,7 +42,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between gap-5 md:block flex-wrap">
+      <div className="flex items-center justify-around gap-5 md:block flex-wrap">
         <Image
           src="/assets/about/Group257.png"
           width={300}
