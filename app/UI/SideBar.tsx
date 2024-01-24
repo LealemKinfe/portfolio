@@ -1,13 +1,29 @@
+"use client";
+
 import Link from "next/link";
+import { inter } from "../lib/fonts";
+import { usePathname } from "next/navigation";
+import clsx from "clsx";
 
 const SideBar = () => {
+  const pathname = usePathname();
   return (
     <>
       {/* Desktop design */}
-      <section className="hidden overflow-hidden shrink-0 lg:block px-1 w-[280px] h-screen bg-[#2F2F2F]">
+      <section
+        className={`hidden overflow-hidden shrink-0 lg:block px-1 w-[280px] h-screen bg-[#2F2F2F] ${inter.className}`}
+      >
         <div className="p-5 text-white my-5">
           <div className="relative rounded-full bg-[#707070]/50 p-5 text-2xl animate-spin-slow">
-            <Link href="/" className="absolute -right-1 top-2.5 rotate-45">
+            <Link
+              href="/"
+              className={clsx(
+                "absolute -right-1 top-2.5 rotate-45 hover:text-Primary",
+                {
+                  "text-Primary": pathname === "/",
+                }
+              )}
+            >
               <span className="-rotate-12 inline-block">H</span>
               <span className="inline-block -translate-y-0.5">o</span>
               <span className="inline-block -translate-y-0.5 rotate-3">m</span>
@@ -18,7 +34,7 @@ const SideBar = () => {
               href="https://linktr.ee/munheda"
               target="_blank"
               rel="noreferrer"
-              className="absolute -left-5 top-2.5 -rotate-45"
+              className="absolute -left-5 top-2.5 -rotate-45 hover:text-Primary"
             >
               <span className="inline-block translate-y-1 -rotate-[18deg]">
                 L
@@ -44,7 +60,12 @@ const SideBar = () => {
 
             <Link
               href="/about"
-              className="absolute -bottom-7 left-1/2 -translate-x-1/2 rotate-180"
+              className={clsx(
+                "absolute -bottom-7 left-1/2 -translate-x-1/2 rotate-180 hover:text-Primary",
+                {
+                  "text-Primary": pathname === "/about",
+                }
+              )}
             >
               <span className="inline-block translate-y-1 -rotate-12">A</span>
               <span className="inline-block translate-y-[1px] -rotate-6">
@@ -64,16 +85,26 @@ const SideBar = () => {
       </section>
 
       {/* Mobile design */}
-      <section className="lg:hidden bg-[#2F2F2F] sm:p-10 p-5 text-white flex justify-center gap-5 sm:text-2xl">
-        <Link href="/" className="z-10">
+      <section className="lg:hidden bg-[#2F2F2F] p-5 text-white flex justify-evenly gap-10 text-2xl">
+        <Link
+          href="/"
+          className={clsx("z-10 hover:text-Primary", {
+            "text-Primary": pathname === "/",
+          })}
+        >
           Home
         </Link>
 
-        <Link href="/" className="z-10">
+        <Link href="/" className="z-10 hover:text-Primary">
           LinkTree
         </Link>
 
-        <Link href="/about" className="z-10">
+        <Link
+          href="/about"
+          className={clsx("z-10 hover:text-Primary", {
+            "text-Primary": pathname === "/about",
+          })}
+        >
           About
         </Link>
       </section>
