@@ -22,7 +22,7 @@ export default function RootLayout({
         <main className="flex flex-col h-screen lg:flex-row relative lg:overflow-hidden">
           {/* background vector */}
           <Image
-            src="/assets/Group1.svg"
+            src="/assets/Group258.svg"
             width={2000}
             height={1000}
             alt="background vector"
