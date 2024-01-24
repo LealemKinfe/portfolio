@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2019.903" height="1225.925" viewBox="0 0 2019.903 1225.925">
+  <g id="Group_258" data-name="Group 258" transform="translate(14.759 73.089)">
+    <g id="Group_1" data-name="Group 1" transform="translate(28.533 19.346)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="1080" fill="none" opacity="0.35"/>
+      <path id="Path_1" data-name="Path 1" d="M0,56.824,1926.467,32.8v92.4H-24.947l11.088,97.94,1988.372-16.631-36.959,109.028H-24.947L-41.578,443.041l1999.46-48.046V496.631L-24.947,550.221l11.088,72.069H1937.554v97.94H-24.947V821.867l1982.829-14.783-20.327,110.876H-24.947v90.548l1962.5-24.023,11.088,86.853H-24.947" fill="none" stroke="#707070" stroke-width="3" opacity="0.35"/>
+      <path id="Path_2" data-name="Path 2" d="M30.491-91.011V1108.3H95.168L130.279-91.011,209.74-61.444V1132.319l81.309-12.936L322.464-42.964h116.42L413.012,1108.3l94.244,11.088V-42.964H618.133L595.957,1108.3H708.681V-42.964H819.557L780.75,1119.383l70.221-11.088L887.93-31.877h116.42L924.889,1108.3h105.332L1078.267-31.877h81.309L1128.161,1108.3l120.115,11.088L1227.949-42.964H1318.5l14.783,1162.348L1449.7,1108.3,1410.894-61.444l134.9,18.479L1529.162,1108.3h97.94V-42.964h107.18L1715.8,1108.3H1834.07l22.175-1151.26s46.2-5.544,46.2,0V1119.383" fill="none" stroke="#707070" stroke-width="2" opacity="0.35"/>
+    </g>
+    <path id="Path_13" data-name="Path 13" d="M101.961,618.406l55.708-2.128v75.391H113.5Z" transform="translate(-98.844 -48.786)" fill="#ebf9e3"/>
+    <path id="Path_14" data-name="Path 14" d="M1542.2,200.883h168.354v79.041L1518.4,263.445Z" transform="translate(-73.793 -203.85)" fill="#f9d278"/>
+    <path id="Path_18" data-name="Path 18" d="M1575.166,202.454l99.639-3.235-4.246,119.345h-95.393Z" transform="translate(81.816 323.562)" fill="#e8fcff"/>
+    <path id="Path_15" data-name="Path 15" d="M301.455,882.188H411.446v90.65h-114Z" transform="translate(-172.539 55)" fill="#fdecca"/>
+    <path id="Path_16" data-name="Path 16" d="M1786.525,938.052h81.588v68.13h-81.588Z" fill="#f7664d"/>
+  </g>
+</svg>
