@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import SideBar from "@/app/ui/SideBar";
 import Image from "next/image";
-
-const inter = Inter({ subsets: ["latin"] });
+import { ibm } from "./lib/fonts";
 
 export const metadata: Metadata = {
   title: "Lealem Kinfe",
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={ibm.className}>
         <main className="flex flex-col h-screen lg:flex-row relative lg:overflow-hidden">
           {/* background vector */}
           <Image
