@@ -14,7 +14,12 @@ const SideBar = () => {
               <span className="inline-block rotate-[9deg]">e</span>
             </Link>
 
-            <Link href="/" className="absolute -left-5 top-2.5 -rotate-45">
+            <Link
+              href="https://linktr.ee/munheda"
+              target="_blank"
+              rel="noreferrer"
+              className="absolute -left-5 top-2.5 -rotate-45"
+            >
               <span className="inline-block translate-y-1 -rotate-[18deg]">
                 L
               </span>
