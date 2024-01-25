@@ -122,7 +122,7 @@ export const projectData: any = {
     client: "Ethiopian Space Science Society",
     about:
       "is a new initiative by the Ethiopian Space Science Society (ESSS), dedicated to making space science and technology education accessible to everyone. At ESSS, we're passionate about exploring the mysteries of the cosmos and sharing that knowledge with the world.",
-    imgUrl: "/assets/Group258.svg",
+    imgUrl: "/assets/uiux/Learning.png",
     caseStudy:
       "is a new initiative by the Ethiopian Space Science Society (ESSS), dedicated to making space science and technology education accessible to everyone. At ESSS, we're passionate about exploring the mysteries of the cosmos and sharing that knowledge with the world.",
     demo: "is a new initiative by the Ethiopian Space Science Society (ESSS), dedicated to making space science and technology education accessible to everyone. At ESSS, we're passionate about exploring the mysteries of the cosmos and sharing that knowledge with the world.",
