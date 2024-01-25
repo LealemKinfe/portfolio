@@ -125,7 +125,8 @@ export const projectData: any = {
     imgUrl: "/assets/uiux/Learning.png",
     caseStudy:
       "is a new initiative by the Ethiopian Space Science Society (ESSS), dedicated to making space science and technology education accessible to everyone. At ESSS, we're passionate about exploring the mysteries of the cosmos and sharing that knowledge with the world.",
-    demo: "is a new initiative by the Ethiopian Space Science Society (ESSS), dedicated to making space science and technology education accessible to everyone. At ESSS, we're passionate about exploring the mysteries of the cosmos and sharing that knowledge with the world.",
+    caseStudy2:
+      "is a new initiative by the Ethiopian Space Science Society (ESSS), dedicated to making space science and technology education accessible to everyone. At ESSS, we're passionate about exploring the mysteries of the cosmos and sharing that knowledge with the world.",
     youtubeLink: "/",
     demoLink: "/",
   },

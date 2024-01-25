@@ -18,7 +18,7 @@ export type project = {
   about: string;
   imgUrl: string;
   caseStudy: string;
-  demo: string;
+  caseStudy2: string;
   youtubeLink: string;
   demoLink: string;
 };
