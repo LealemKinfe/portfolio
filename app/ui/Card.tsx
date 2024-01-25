@@ -17,13 +17,13 @@ const Card = ({
         height={364}
         width={317}
         alt={`${title} picture`}
-        className="object-cover group-hover:scale-105 duration-300"
+        className="object-cover group-hover:animate-scale duration-300"
       />
 
       <h2 className="text-2xl font-bold text-Quinary mt-5">{title}</h2>
 
       <Link href={link} className="hover:underline text-xl text-Quinary">
-        Lear more
+        Learn more
       </Link>
     </div>
   );
