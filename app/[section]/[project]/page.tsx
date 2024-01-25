@@ -1,6 +1,7 @@
 import { projectData } from "@/app/lib/data";
 import { params, project } from "@/types";
 import Image from "next/image";
+import Link from "next/link";
 
 const page = ({ params }: params) => {
   const sec = params.section;
@@ -52,6 +53,23 @@ const page = ({ params }: params) => {
           About the Project:
         </h1>
         <p className="text-xl md:text-2xl max-w-4xl p-4">{projectInfo.about}</p>
+
+        {/* Demo links */}
+        <div className="flex justify-center items-center gap-7 p-8">
+          <Link
+            href={projectInfo.demoLink}
+            className="bg-[#171717] text-white hover:text-[#171717] hover:bg-white py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
+          >
+            Try a Demo
+          </Link>
+
+          <Link
+            href={projectInfo.youtubeLink}
+            className="bg-white text-[#171717] hover:text-white hover:bg-[#171717] py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
+          >
+            Watch Demo
+          </Link>
+        </div>
       </div>
 
       {/* Project image */}
@@ -71,12 +89,11 @@ const page = ({ params }: params) => {
         <p className="text-xl md:text-2xl max-w-4xl p-4">
           {projectInfo.caseStudy}
         </p>
-      </div>
-
-      {/* Demo */}
-      <div className=" my-7">
-        <h1 className="font-bold text-2xl md:text-4xl leading-10">Demo:</h1>
-        <p className="text-xl md:text-2xl max-w-4xl p-4">{projectInfo.demo}</p>
+        {!!projectInfo.caseStudy2 && (
+          <p className="text-xl md:text-2xl max-w-4xl p-4">
+            {projectInfo.caseStudy}
+          </p>
+        )}
       </div>
     </section>
   );
