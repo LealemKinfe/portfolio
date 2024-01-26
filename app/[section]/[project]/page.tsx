@@ -58,13 +58,17 @@ const page = ({ params }: params) => {
         <div className="flex justify-center items-center gap-7 p-8">
           <Link
             href={projectInfo.demoLink}
+            target="_blank"
+            rel="noreferrer"
             className="bg-[#171717] text-white hover:text-[#171717] hover:bg-white py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
           >
             Try a Demo
           </Link>
 
           <Link
-            href={projectInfo.youtubeLink}
+            href={projectInfo.demoLink}
+            target="_blank"
+            rel="noreferrer"
             className="bg-white text-[#171717] hover:text-white hover:bg-[#171717] py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
           >
             Watch Demo
@@ -86,14 +90,18 @@ const page = ({ params }: params) => {
         <h1 className="font-bold text-2xl md:text-4xl leading-10">
           Case Study:
         </h1>
-        <p className="text-xl md:text-2xl max-w-4xl p-4">
+        <p className="text-xl md:text-2xl max-w-4xl p-4 mb-10">
           {projectInfo.caseStudy}
         </p>
-        {!!projectInfo.caseStudy2 && (
-          <p className="text-xl md:text-2xl max-w-4xl p-4">
-            {projectInfo.caseStudy}
-          </p>
-        )}
+
+        <Link
+          href={projectInfo.caseStudyLink}
+          target="_blank"
+          rel="noreferrer"
+          className="bg-white text-[#171717] hover:text-white hover:bg-[#171717] py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
+        >
+          Read More
+        </Link>
       </div>
     </section>
   );
