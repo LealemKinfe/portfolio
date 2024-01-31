@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css";
 import SideBar from "@/app/ui/SideBar";
 import Image from "next/image";
-import { ibm } from "./lib/fonts";
+import { ibm } from "@/app/lib/fonts";
 
 export const metadata: Metadata = {
   title: "Lealem Kinfe",

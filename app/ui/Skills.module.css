@@ -1,0 +1,49 @@
+.ps {
+  animation: ps 2000ms ease-in 1 normal forwards;
+}
+
+.il {
+  animation: il 2000ms ease-in 1 normal forwards;
+}
+
+.id {
+  animation: id 2000ms ease-in 1 normal forwards;
+}
+
+.xd {
+  animation: xd 2000ms ease-in 1 normal forwards;
+}
+
+.figma {
+  animation: figma 2000ms ease-in 1 normal forwards;
+}
+
+@keyframes ps {
+  to {
+    width: 93%;
+  }
+}
+
+@keyframes il {
+  to {
+    width: 99%;
+  }
+}
+
+@keyframes id {
+  to {
+    width: 85%;
+  }
+}
+
+@keyframes xd {
+  to {
+    width: 97%;
+  }
+}
+
+@keyframes figma {
+  to {
+    width: 88%;
+  }
+}

@@ -1,11 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
+import { truculenta } from "@/app/lib/fonts";
 
 const Home = () => {
   return (
     <>
       {/* Desktop design */}
-      <section className="hidden h-screen lg:w-full bg-[#2F2F2F] lg:grid place-items-center">
+      <section
+        className={`hidden h-screen lg:w-full bg-[#2F2F2F] lg:grid place-items-center`}
+      >
+        {/* <h1 className="text-[#EBF9E3]/40 text-5xl absolute left-5 bottom-5">
+          Lealem Kinfe
+        </h1> */}
         <div className="h-[680px] xl:w-[900px] w-[800px] px-20 xl:px-32 py-5">
           <div className="h-full rounded-full rotate-[30deg] animate-spin-mid bg-[#707070]/50 grid place-items-center relative">
             {/* Center div */}
@@ -23,7 +29,7 @@ const Home = () => {
                 height={180}
                 width={200}
                 alt="graphics page logo"
-                className="object-cover -rotate-[30deg] hover:animate-scale"
+                className="object-cover -rotate-[30deg] hover:animate-scale-rotate"
               />
             </Link>
             <div className="absolute top-7 rounded-lg right-1/2 translate-x-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/70"></div>
@@ -38,7 +44,7 @@ const Home = () => {
                 height={180}
                 width={200}
                 alt="logo page logo"
-                className="object-cover -rotate-[30deg] hover:animate-scale"
+                className="object-cover -rotate-[30deg] hover:animate-scale-rotate"
               />
             </Link>
             <div className="absolute bottom-7 rounded-lg right-1/2 translate-x-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/30"></div>
@@ -53,7 +59,7 @@ const Home = () => {
                 height={180}
                 width={220}
                 alt="branding page logo"
-                className="object-cover -rotate-[30deg] hover:animate-scale"
+                className="object-cover -rotate-[30deg] hover:animate-scale-rotate"
               />
             </Link>
             <div className="absolute right-7 rounded-lg bottom-1/2 translate-y-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/30"></div>
@@ -68,7 +74,7 @@ const Home = () => {
                 height={180}
                 width={220}
                 alt="ui/ux page logo"
-                className="object-cover -rotate-[30deg] hover:animate-scale"
+                className="object-cover -rotate-[30deg] hover:animate-scale-rotate"
               />
             </Link>
             <div className="absolute left-7 rounded-lg bottom-1/2 translate-y-1/2 px-[137px] py-[136px] bg-[#C3C3C3]/70"></div>

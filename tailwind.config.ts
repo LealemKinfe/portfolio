@@ -19,11 +19,16 @@ const config: Config = {
         "spin-slow": "spin 50s reverse linear infinite",
         "spin-mid": "spinadjust 50s linear infinite",
         scale: "scale 1s linear alternate infinite",
+        "scale-rotate": "scale-rotate 1s linear alternate infinite",
       },
       keyframes: {
         spinadjust: {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(360deg)" },
+        },
+        "scale-rotate": {
+          "0%": { scale: "1" },
+          "100%": { scale: "1.05", transform: "rotate(-25deg)" },
         },
         scale: {
           "0%": { scale: "1" },

@@ -11,7 +11,7 @@ const SideBar = () => {
     <>
       {/* Desktop design */}
       <section
-        className={`hidden overflow-hidden shrink-0 lg:block px-1 w-[280px] h-screen bg-[#2F2F2F] ${inter.className}`}
+        className={`hidden overflow-hidden shrink-0 lg:block px-1 w-[280px] max-h-screen bg-[#2F2F2F] ${inter.className}`}
       >
         <div className="p-5 text-white my-4">
           <div className="relative rounded-full bg-[#707070]/50 p-5 text-2xl animate-spin-slow">

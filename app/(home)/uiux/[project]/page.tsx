@@ -1,12 +1,10 @@
 import { projectData } from "@/app/lib/data";
-import { params, project } from "@/types";
+import { param, project } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 
-const page = ({ params }: params) => {
-  const sec = params.section;
+const page = ({ params }: param) => {
   const proj = params.project;
-  const sections = ["uiux", "graphics", "branding", "logo"];
   const projects = [
     "projectesss",
     "projectablaze",
@@ -15,7 +13,7 @@ const page = ({ params }: params) => {
     "projectmadeya",
   ];
 
-  if (!sections.includes(sec) || !projects.includes(proj)) {
+  if (!projects.includes(proj)) {
     return (
       <div className="w-full grid place-items-center bg-white z-10">
         <h1 className="font-bold text-4xl">Page Not Found</h1>
@@ -60,7 +58,7 @@ const page = ({ params }: params) => {
             href={projectInfo.demoLink}
             target="_blank"
             rel="noreferrer"
-            className="bg-[#171717] text-white hover:text-[#171717] hover:bg-white py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
+            className="bg-[#171717] text-white hover:bg-[#171717]/80 py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
           >
             Try a Demo
           </Link>
@@ -69,7 +67,7 @@ const page = ({ params }: params) => {
             href={projectInfo.demoLink}
             target="_blank"
             rel="noreferrer"
-            className="bg-white text-[#171717] hover:text-white hover:bg-[#171717] py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
+            className="bg-white text-[#171717] hover:bg-[#171717]/5 py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
           >
             Watch Demo
           </Link>
@@ -98,7 +96,7 @@ const page = ({ params }: params) => {
           href={projectInfo.caseStudyLink}
           target="_blank"
           rel="noreferrer"
-          className="bg-white text-[#171717] hover:text-white hover:bg-[#171717] py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
+          className="bg-Primary text-white  hover:bg-white hover:text-Primary py-4 px-5 font-bold text-3xl rounded-2xl border border-[#171717]"
         >
           Read More
         </Link>

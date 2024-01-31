@@ -5,6 +5,27 @@ export const imageData: any = {
   logo: "/assets/icons/logo.svg",
 };
 
+export const graphicsBg = [
+  "bg-[#15AEB4]",
+  "bg-[#22243D]",
+  "bg-[#191919]",
+  "bg-[#E6E042]",
+];
+
+export const translatVal = [
+  "translate-x-[318px]",
+  "translate-x-[0vw]",
+  "-translate-x-[318px]",
+  "-translate-x-[636px]",
+];
+
+export const graphicsImg = [
+  "/assets/istockphoto-1311511363-612x612.jpg",
+  "/assets/placeholder-education.svg",
+  "/assets/istockphoto-1311511363-612x612.jpg",
+  "/assets/placeholder-education.svg",
+];
+
 export const cardData: any = {
   uiux: [
     {

@@ -1,9 +1,5 @@
 export type param = {
-  params: { section: string };
-};
-
-export type params = {
-  params: { section: string; project: string };
+  params: { project: string };
 };
 
 export type card = {
